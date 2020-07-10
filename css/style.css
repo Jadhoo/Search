@@ -1,3 +1,5 @@
+/*~~~~~~~~~~~~~~~~~~ Common Styles for both index.html and images.html~~~~~~~~~~~~~~~~~~~~~~ */
+
 body {
     text-align: center;
     margin: 0;
@@ -40,13 +42,8 @@ img {
     padding-top: 109px;
 }
 
-/* div containing search-control elements */
-.search-controls {
-    padding-top: 24px;
-}
-
-/* search-box */
-.search-box {
+/* common style for search-box for both index.html and images.html*/
+.box {
     width: 584px;
     height: 46px;
     border-radius: 24px;
@@ -55,28 +52,26 @@ img {
     text-align: left;
 }
 
+/* Spacing of search elements */
 .search-elements {
     padding: 5px 8px 0 14px;
 }
 
-.search-box:hover {
+.box:hover {
     box-shadow: 0 0 5px #dfe1e5;
 }
 
 
-/* search-icon */
-.fa, .fas {
+/* left search-icon style for both index.html and images.html */
+.fas.left {
     color: #9AA0A6;
     font-size: 13px;
-    font-weight: 100;
     padding-right: 13px;
 }
 
-/* text-box */
+/* text-box style for both index.html and styles.html */
 .search-input {
     border: none;
-    height: 34px;
-    width: 487px;
     font-family: arial;
     font-size: 16px;
     font-weight: 200;
@@ -85,6 +80,25 @@ img {
 .search-input:focus {
     border: none;
     outline: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Style for index.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* div containing search-control elements */
+.search-controls {
+    padding-top: 24px;
+}
+
+/* Dimension of search-box */
+.search-box {
+    width: 584px;
+    height: 46px;
+}
+
+/* Dimension of text-box for index.html*/
+.query-search {
+    height: 34px;
+    width: 487px;
 }
 
 /* Buttons */
@@ -114,4 +128,46 @@ img {
 .btn:focus {
     border: 1px solid #4d90fe;
     outline: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Style for images page ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.image-search-box {
+    width: 536px;
+    height: 46px;
+}
+
+.fas.right {
+    color: #4285F4;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.image-search {
+    height: 34px;
+    width: 440px;
+}
+
+.logo-subtitle {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    display: block;
+    cursor: default;
+    position: relative;
+    bottom: 20px;
+    padding-left: 210px;
+}
+
+.image-search-box {
+    height: 46px;
+    width: 536px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+    text-align: left;
 }
