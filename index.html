@@ -3,22 +3,33 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="css/style.css">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/17ed82a084.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="nav">
             <ul class="pages">
-                <li><a href="#">Images</a></li>
-                <li><a href="#">Advanced Search</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="advanced.html">Advanced Search</a></li>
             </ul>
         </div>
         <div class="main-content">
             <img src=" https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
-            <form action="https://google.com/search">
-                <input type="text" name="q" class = "search-box">
-                <br>
-                <input type="submit" value="Google Search" class="btn">
-                <input type="submit" value="I'm Feeling Lucky" class="btn">
-            </form>
+            <div class="search-controls">
+                <form action="https://google.com/search">
+                    <div class="search-box">
+                        <div class="search-elements">
+                            <span class="search-icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                            <input type="text" name="q" class = "search-input" title="Search" >
+                        </div>
+                    </div>
+                    <br>
+                    <input type="submit" value="Google Search" class="btn">
+                    <input type="submit" value="I'm Feeling Lucky" class="btn" name="btnI">
+                </form>
+            </div> 
         </div>    
     </body>
 </html>
