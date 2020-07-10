@@ -1,13 +1,10 @@
 body {
     text-align: center;
     margin: 0;
-    /* margin-right: 16px; */
 }
 
+/*Style for navigation section*/
 .nav {
-    top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
     text-align: right;
     margin: 22px 0 6px;
@@ -23,9 +20,6 @@ ul li {
     list-style-type: none;
     padding-top: 10px;
 }
-img {
-    padding-top: 109px;
-}
 
 a {
     color: rgba(0,0,0,0.87);
@@ -37,4 +31,87 @@ a {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*Google Image*/
+img {
+    padding-top: 109px;
+}
+
+/* div containing search-control elements */
+.search-controls {
+    padding-top: 24px;
+}
+
+/* search-box */
+.search-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.search-elements {
+    padding: 5px 8px 0 14px;
+}
+
+.search-box:hover {
+    box-shadow: 0 0 5px #dfe1e5;
+}
+
+
+/* search-icon */
+.fa, .fas {
+    color: #9AA0A6;
+    font-size: 13px;
+    font-weight: 100;
+    padding-right: 13px;
+}
+
+/* text-box */
+.search-input {
+    border: none;
+    height: 34px;
+    width: 487px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.search-input:focus {
+    border: none;
+    outline: none;
+}
+
+/* Buttons */
+.btn {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    line-height: 27px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.btn:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
 }
