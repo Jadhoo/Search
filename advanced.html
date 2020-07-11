@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/advanced.css">
 </head>
 <body>
-    Hello
+    <div class="nav">
+        <div class="logo">
+            <a href="https://www.google.com">
+                <img class="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" title="Go to Google Home">
+            </a>
+        </div>
+        <div class="empty"></div>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="images.html">Images</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="title">
+        <label>Advanced Search</label> 
+    </div>
+    <div class="line"></div>
+    <div class="advanced-search">
+        <form action="https://google.com/search">
+            <div class="row-head">
+                <div class="col-1">
+                    <span class="find-title">Find pages with...</span>
+                </div> 
+                <div class="col-2"></div>
+                <div class="col-3 find-subtitle"><div class>To do this in the search box.</div></div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label>all these words:</label>
+                </div> 
+                <div class="col-2"><input type="text" autofocus name="as_q"></div>
+                <div class="col-3"><div>Type the important words: <span>tri-colour rat terrier</span></div></div>
+            </div>  
+            <div class="row">
+                <div class="col-1">
+                    <label>this exact word or phrase:</label>
+                </div> 
+                <div class="col-2"><input type="text" name="as_epq"></div>
+                <div class="col-3"><div>Put exact words in quotes: <span>"rat terrier"</span></div></div>
+            </div>  
+            <div class="row">
+                <div class="col-1">
+                    <label>any of these words:</label>
+                </div> 
+                <div class="col-2"><input type="text" name="as_oq"></div>
+                <div class="col-3"><div>Type <span>OR</span> between all the words you want: <span>miniature OR standard</span></div></div> 
+            </div> 
+            <div class="row">
+                <div class="col-1">
+                    <label>none of these words:</label>
+                </div> 
+                <div class="col-2"><input type="text" name="as_eq"></div>
+                <div class="col-3">
+                    <div>
+                        Put a minus sign just before words that you don't want:
+                        <br>
+                        <span>-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-1">
+                    <label>numbers ranging from:</label>
+                </div> 
+                <div class="col-2 bottom"><input type="text" name="as_nlo" class="left"><span class="middle"> to </span><input class="right" name="as_nhi" type="text"></div>
+                <div class="col-3">
+                    <div>
+                        Put two full stops between the numbers and add a unit of measurement:
+                        <br>
+                        <span>10..35 kg, £300..£500, 2010..2011</span>
+                    </div>
+                </div>
+            </div> 
+            <input name="tbs" type="hidden" value="">
+            <button type="submit">Advanced Search</button>
+        </form>
+    </div>
 </body>
 </html>
