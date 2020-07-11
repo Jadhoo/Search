@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+
+/* Navbar */
+.nav {
+    height: 60px;
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+/* Google logo */
+.logo {
+    padding-left: 15px;
+    padding-top: 17px;
+    width: 10%;
+}
+
+.logo-img {
+    height: 30px;
+    width: 91px;
+    cursor: pointer;
+}
+
+/* empty div */
+.empty {
+    width: 75%;
+}
+
+/* links */
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding-top: 17px;
+}
+
+li a {
+    color: rgba(0,0,0,0.87);
+    font-family: arial;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.links {
+    width: 15%;
+    padding-top: 5px;
+}
+
+/* Advanced Search title */
+.title {
+    padding: 25px 0 25px 35px;
+}
+
+.title label {
+    color: #D93025;
+    font-size: 20px;
+    font-family: Arial;
+    margin: 10px;
+}
+
+/* horizontal line */
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-search {
+    padding-left: 45px;
+    padding-top: 46px;
+}
+
+/* Advanced search options */
+.row-head{
+    display: flex;
+    padding-bottom: 9.5px;
+}
+
+.row-head .col-1 {
+    width: 12.25%;
+}
+
+.row {
+    display: flex;
+    height: 25px;
+    padding: 8.5px 0;
+}
+
+
+.row .col-1 {
+    width: 12.25%;
+    padding-top: 5px;
+}
+
+.col-2 {
+    width: 38.4%;
+    position: relative;
+}
+
+
+.find-title {
+    color: #333333;
+    font-family: arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.find-subtitle {
+    color: #777777;
+    font-family: arial,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+input {
+    border-radius: 1px;
+    width: 96.8%;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+input:focus {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.col-1 label, span.middle {
+    color: #222222;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+input.left {
+    width: 257px;
+}
+
+span.middle {
+    line-height: 25px;
+    padding-top: 2px;
+    text-align: center;
+    width: 52px;
+}
+
+input.right {
+    width: 259.2px;
+}
+
+.col-2.bottom {
+    display: flex;
+}
+
+.row .col-3 {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    padding-top: 4px;
+}
+.row .col-3 div{
+    color: #555555;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    padding-left: 14px;
+}
+
+.col-3 span {
+    color: #666666;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+button {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #2F5BB7;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: default;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: 700;
+    height: 30px;
+    margin: 20px 0;
+    outline: 0;
+    padding: 0 12px;
+    position: absolute;
+    left: 680px;
+    width: 120px;
+}
